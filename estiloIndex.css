@@ -39,18 +39,19 @@ text-align: center;
 }
 
 li:hover {
-    background-color: rgb(19, 19, 252);
-}*/
-/*footer {
+    background-color: rgb(64, 64, 65);
+}
+
+.footer {
     color: rgb(255, 255, 255);
     font-size: 16px;
     text-align: center;
-    background-color: black;
+    background-color: rgb(56, 53, 53);
 
 }
 /*.fondoverde {
     background-color: green;
-}
+}*/
 
 /*article {
     text-align: center;
@@ -63,7 +64,24 @@ img {
     width: 340px;
     height: 450px;
     margin: 5px 5px 5px 5px;
+}*/
+
+img {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px 180px 0px 180px ;
 }
+
+.textoindex {
+    color: white;
+    font-weight: bold;
+}
+div h5 p {
+    color: white;
+}
+
 
 /* Menu Categoria*/
 
