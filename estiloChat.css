@@ -1,0 +1,24 @@
+header {
+       
+    padding-left: 20px;
+    margin: 50px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+nav ul li { 
+    background-color: rgb(255, 255, 255);
+color: black;
+font-size: 20px;
+font-weight: bold;
+padding: 15px;
+display: inline;
+}
+
+form {
+    background-color: white;
+color: black;
+font-size: 18px;
+font-weight: normal;
+padding: 12px;
+}
