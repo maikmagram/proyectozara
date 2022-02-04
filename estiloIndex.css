@@ -1,4 +1,5 @@
 
+
 /*Estilos Generales*/ 
 
 body {
@@ -15,14 +16,19 @@ header {
     font-style: normal;
     text-align: end;
 }
+
+body header nav {
+    background-color: tomato;
+}
 nav ul li { 
- background-color: rgb(250, 248, 252);
+display: flex;
+
 color: rgb(0, 0, 0);
-font-size: 20px;
+font-size: 18px;
 font-weight: bold;
-border-radius: 3px;
-padding: 5px;
-margin: 5px;
+border-radius: 5px;
+padding: px;
+margin: 15px;
 list-style-type: none;
 text-align: center;
 
@@ -39,14 +45,34 @@ text-align: center;
 }
 
 li:hover {
-    background-color: rgb(64, 64, 65);
+    background-color: rgb(71, 71, 75);
+    color: white;
+    
+}
+body nav form {
+    
+    color: white;
+    height: 60px;
+}
+h5:hover {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
 }
 
+
+form:hover {
+    background-image: url(./image/hombre_zara_campaña-fw-2013-14_0\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
 .footer {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 16px;
     text-align: center;
-    background-color: rgb(56, 53, 53);
+    background-color: rgb(253, 253, 253);
 
 }
 /*.fondoverde {
@@ -66,7 +92,7 @@ img {
     margin: 5px 5px 5px 5px;
 }*/
 
-img {
+.divimg {
     display: flex;
     height: 100vh;
     align-items: center;
@@ -99,6 +125,19 @@ background-position-x: center;
 }
 /* Iniciar Sesion */
 
+.fondodepantalla {
+background-image: url(./image/035424877b53a458fda0ecb384760ea7.jpg);
+background-repeat: no-repeat;
+margin: 0px;
+background-size: 100%;
+}
+.fondodepantalla1 {
+    background-image: url(./image/tyler-zara-017-1631632374.jpg);
+
+    background-repeat: no-repeat;
+    margin: 0px;
+    background-size: 100%
+}
 .inicioSesion {
     color: rgb(0, 0, 0);
     padding: 10px;
@@ -109,27 +148,37 @@ background-position-x: center;
 
 }
 form {
-background-color: white;
+
 color: black;
 font-size: 18px;
 font-weight: normal;
 padding: 20px 20 px;
 margin: 20px 20px;
 text-align: center;
-
 }
+.form {
+
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 20px 20 px;
+    margin: 20px 20px;
+    text-align: left;
+}
+
+
 .botonText {
  border-color: black;
  color: white;
- background-color: rgb(66, 64, 66);
+ background-color: rgb(187, 36, 187);
  text-align: center;
  padding: 10px;
  
 }
 .btn {
    text-decoration: none;
-   background-color: white;
-   color: tomato;
+   background-color: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
    border-radius: 5px;
    display: inline-block;
    margin: 10px;
@@ -151,4 +200,22 @@ border-color: violet;
 color: white;
 background-color: blue;
 text-align: center;
+}
+
+
+/* Seccion Hombre Jerseys*/
+
+.card-flex {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    flex-wrap: nowrap; /* Multilinea*/
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+a:hover {
+    background-color: rgb(83, 80, 80);
+    color: turquoise;
 }
